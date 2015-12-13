@@ -1,0 +1,6 @@
+[package]
+name = "motherbase_namegen"
+version = "0.1.0"
+authors = ["dixego <dailexgo@gmail.com>"]
+[dependencies]
+rand = "0.3"
