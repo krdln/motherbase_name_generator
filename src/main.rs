@@ -14,7 +14,7 @@ fn main(){
 	let l_names = read_file_lines(&mut f2).unwrap();
 	
 
-	let lim = if args.len() > 1 {
+	let lim = if args.len() > 1 && args[1].parse::<i32>().is_ok(){
 		args[1].parse::<i32>().unwrap()
 		}else{
 			1
